@@ -1,0 +1,380 @@
+#logo{
+  display: block;
+  width: 200px ;
+  margin: 0;
+  padding: 0;
+}
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+nav{
+  opacity: 0.8 ;
+  font-size: 1.2em ;
+}
+
+
+
+html{
+  overflow-x: hidden;
+}
+
+.text-box {
+    position: absolute;
+    width: 100%;
+    margin-left: 5% ;
+    top: 50%;
+    left: 50% ;
+    transform: translate(-50%,-50%);
+}
+
+.theme{
+  background-image:linear-gradient(to right, rgba(15, 32, 39, 0.3), rgba(32, 58, 67,0.3), rgba(44, 83, 100, 0.3)) , url(../img/page1.jpg);
+  height: 100vh ;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.theme1{
+  background-image:linear-gradient(to right, rgba(15, 32, 39, 0.3), rgba(32, 58, 67,0.3), rgba(44, 83, 100, 0.3)) , url(../img/page1.jpg);
+  height: 120vh ;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.theme2{
+  background-image: linear-gradient(to right, rgba(15, 32, 39, 0.6), rgba(32, 58, 67,0.6), rgba(44, 83, 100, 0.6)) , url(../img/partners.jpg);
+  height: 100vh ;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+.theme3{
+  background-image: linear-gradient(to right, rgba(15, 32, 39, 0.3), rgba(32, 58, 67,0.3), rgba(44, 83, 100, 0.3)) , url(../img/photo1.jpg);
+  height: 100vh ;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+.theme4{
+  background-image: linear-gradient(to right, rgba(15, 32, 39, 0.3), rgba(32, 58, 67,0.3), rgba(44, 83, 100, 0.3)) , url(../img/photo3.jpg);
+  height: 100vh ;
+  width: 100vw;
+  background-position: top;
+  background-size: cover;
+}
+
+.theme5{
+  background-image: linear-gradient(to right, rgba(15, 32, 39, 0.2), rgba(32, 58, 67,0.2), rgba(44, 83, 100, 0.2)) , url(../img/photo4.jpg);
+  height: 100vh ;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+.theme6{
+  background-image: linear-gradient(to right, rgba(15, 32, 39, 0.4), rgba(32, 58, 67,0.4), rgba(44, 83, 100, 0.4)) , url(../img/photo5.jpg);
+  height: 100vh ;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+.theme7{
+  background-image: linear-gradient(to right, rgba(15, 32, 39, 0.4), rgba(32, 58, 67,0.4), rgba(44, 83, 100, 0.4)) , url(../img/projets.jpg);
+  height: 100vh ;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  font-weight: 300;
+
+}
+
+.tt{
+  font-size: 50% ;
+}
+
+h2
+{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 200% ;
+    word-spacing: 2px ;
+    text-align: center;
+    margin-bottom: 30px ;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.bb:link, bb:visited
+{
+    display: inline-block ;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px  30px ;
+    border-radius: 200px ;
+    border: 1px solid #dd2431 ;
+    -webkit-transition: background-color 0.2s ,color 0.2s ,border 0.2s ;
+    transition: background-color 0.2s ,color 0.2s ,border 0.2s ;
+}
+
+.bb-full:link ,
+.bb-full:visited
+{
+    color: #fff ;
+    background-color: #dd2431 ;
+    border: 1px solid #dd2431 ;
+}
+
+.bb-ghost:link ,
+.bb-ghost:visited
+{
+    color: #dd2431 ;
+    margin-left: 20px ;
+
+}
+
+.bb:hover ,
+.bb:active
+{
+    background-color: #bd2630;
+    border-color: #bd2630 ;
+}
+
+
+.bb-ghost:hover ,
+.bb-ghost:active
+{
+    color: #fff;
+    border-color: #bd2630 ;
+}
+
+h2:after
+{
+    display: block ;
+    content: "";
+    width: 130px;
+    background-color: #dd2431 ;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.pp{
+  margin: 0 30% ;
+}
+
+.about i{
+  font-size: 3em ;
+  color: #dd2431;
+  margin-bottom: 50px;
+}
+
+ .objectif i , .obj i {
+  font-size: 3em ;
+  color: #dd2431;
+  margin-bottom: 20px;
+}
+
+
+
+.bike i{
+ font-size: 2.5em ;
+ color: #dd2431;
+ margin-bottom: 20px;
+ margin-top: 20px;
+
+}
+
+
+
+#contact i{
+  font-size: 1.2em ;
+  color: #dd2431;
+}
+
+#contact a i{
+  font-size: 1.5em ;
+  color: #dd2431;
+}
+
+#authors img{
+
+    margin-top: -80px;
+  }
+
+
+  #authors .card:hover{
+    background-color: #dd2431;
+    color: #fff ;
+
+  }
+.aa{
+  margin-top: 100px;
+}
+
+.zz,
+.obj{
+  background-color: #f0f0f0 ;
+}
+
+.rock{
+  font-size: 1000% ;
+  margin: 10% auto;
+  color: #dd2431;
+}
+
+.gg:hover{
+  border-bottom: solid 2px #dd2431;
+}
+
+
+#sje{
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
+}
+footer{
+  text-align: center;
+  color: white;
+  font-size: 110% ;
+  padding: 25px 0 ;
+}
+
+.obj p {
+  font-size: 1.1em ;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+.im{
+  width: 30% ;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.qq{
+  font-size: 50% ;
+}
+
+#contact {
+    background: #fff;
+    padding-bottom: 80px;
+    position: relative;
+    text-align: center;
+}
+#contact .contact-block {
+    background: #fff;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 43px 0 rgba(131,131,131,.23);
+}
+
+.offset-top {
+    margin-top: -110px;
+}
+
+
+
+.form-control {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 1px solid #ececec;
+    transition: all .3s;
+}
+.text-left {
+    text-align: left!important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.bbb{
+  background-color:  #dd2431;
+}
+
+#intro{
+  padding-top: 10%;
+}
+
+
+.part-img{
+  width: 100% ;
+  height: 60% ;
+}
+
+.mm{
+  background-image: linear-gradient(to right, rgba(15, 32, 39, 0.2), rgba(32, 58, 67,0.2), rgba(44, 83, 100, 0.2)), url(../img/11.png);
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+.photo
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000 ;
+
+}
+
+.photo img
+{
+    opacity: 0.7;
+    width: 100%;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s ,-webkit-transform 0.5s;
+    transition: opacity 0.5s ,-webkit-transform 0.5s;
+    transition: opacity 0.5s ,transform 0.5s;
+    transition: opacity 0.5s ,transform 0.5s ,-webkit-transform 0.5s;
+}
+.photo img:hover
+{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.pdf{
+  margin-top: 5% ;
+}
+
+.cs{
+  font-size: 1.3em ;
+  border-bottom: solid 1px;
+}
+
+.hhh{
+  background-color: rgba(255, 255, 255, 0.17);
+  top: 70% ;
+}
